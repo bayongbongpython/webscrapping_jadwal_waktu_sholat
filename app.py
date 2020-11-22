@@ -20,11 +20,9 @@ for d in data:
     elif i == 4:
         sholat['magrib'] = d.get_text()
     elif i == 5:
-        sholat['magrib'] = d.get_text()
-    elif i == 6:
         sholat['isya'] = d.get_text()
     i += 1
 
 print(sholat)
-print(sholat['ashar'])
+print(sholat['magrib'])
 
