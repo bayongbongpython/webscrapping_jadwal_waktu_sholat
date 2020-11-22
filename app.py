@@ -26,4 +26,5 @@ for d in data:
     i += 1
 
 print(sholat)
+print(sholat['ashar'])
 
